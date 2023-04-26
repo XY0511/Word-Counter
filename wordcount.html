@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Word and Sentence Counter</title>
+    <link rel="stylesheet" href="styles.css" media="screen"/>
+    <script src="script.js"></script>
+</head>
+<body>
+	<form onsubmit="countWordsAndSentences(); return false;">
+		<label for="textInput">Enter a text:</label>
+		<br>
+		<textarea id="textInput" rows="10" cols="50"></textarea>
+		<br>
+		<input type="submit" value="Count">
+	</form>
+	<div id="result"></div>
+</body>
+</html>
