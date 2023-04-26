@@ -11,3 +11,9 @@ input[type="submit"] {
     border-radius: 5px;
     cursor: pointer;
 }
+h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    margin-top: auto;
+  margin-bottom: auto;
+}
